@@ -29,6 +29,7 @@ th {
 
 .margin {
   margin: 20px;
+  text-align: center; /* new! */
 }
 
 .blue {
