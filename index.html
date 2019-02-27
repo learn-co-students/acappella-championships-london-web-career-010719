@@ -4,8 +4,6 @@
     <meta charset="utf-8">
     <title>A Cappella Championships</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="./src/index.js"></script>
-    <script src="./src/aCappellaGroup.js"></script>
     <link rel="stylesheet" href="./assets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans" rel="stylesheet">
   </head>
@@ -19,17 +17,21 @@
       </div>
       <table class='width-75 margin' border="1">
         <thead class='blue'>
-          <tr class='padding'>
+          <tr class='padding' id='columns'>
             <th class='padding center'>College</th>
             <th class='padding center'>Group Name</th>
             <th class='padding center'>Membership</th>
             <th class='padding center'>Division</th>
             <th class='padding center'>Crown as Winner</th>
+            <th class='padding center'>Delete</th>
           </tr>
         </thead>
         <tbody id="table-body">
         </tbody>
       </table>
     </div>
+    <script src="./src/api.js"></script>
+    <script src="./src/aCappellaGroup.js"></script>
+    <script src="./src/index.js"></script>
   </body>
 </html>
